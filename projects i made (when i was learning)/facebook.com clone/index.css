@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#bigbox{
+    display: flex;
+    justify-content: center;
+    flex: 6;
+    padding-top: 100px;
+    background: #f0f2f5;
+    min-width: 1000px;
+}
+#fb-logo{
+    width: 280px;
+    margin-top: 15px;
+}
+#below-logo{
+    font-size: 25px;
+    width: 470px;
+    margin-left: 27px;
+    margin-top: -10px;
+}
+#right-side-bar{
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 13px 13px 20px 13px;
+    display: block;
+    justify-content: center;
+    box-shadow: 0 0 7px rgb(196, 196, 196);
+}
+#log-in-input, #password-input{
+    display: block;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 300px;
+    border: 1px solid #dddfe2;
+    outline: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#password-input::placeholder, #log-in-input::placeholder{
+    opacity: .7;
+}
+#log-in-input:focus, #password-input:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 1px #1877f2;
+}
+
+#log-in-button{
+    background-color: #1877f2;
+    border: none;
+    display: block;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    color: #fff;
+}
+.line-b{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+#sign-up-button{
+    border: none;
+    background-color: #42b72a;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 44px;
+    width: 180px;
+    cursor: pointer;
+    transition: background-color .1s;
+}
+#sign-up-button:hover{
+    background-color: #379724;
+}
+
+/* these codes are for footer*/
+#bigbig{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#footer{
+    flex: 2;
+    background-color: #fff;
+}
+#footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+#footer-lang{
+    list-style-type: none;
+    display: block;
+}
+#footer-lang li{
+    float: left;
+    margin: 2px 0;
+}
+#footer-lang li a{
+    margin: 0 3px;
+}

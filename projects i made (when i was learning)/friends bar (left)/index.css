@@ -1,0 +1,43 @@
+#bigbox img{
+    object-fit: cover;
+    object-position: center;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#bigbox{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+#left-sec{
+    background-color: rgb(43, 43, 43);
+    padding: 11px 15px 0 15px;
+}
+#right-sec{
+    background-color: rgb(71, 71, 71);
+}
+#right-sec-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    color: #fff;
+    padding: 5px 15px;
+}
+#right-sec-down{
+    color: #dddddd;
+}
+#pppp{
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+}
+#pppp:hover{
+    background-color: #6b6b6b;
+}

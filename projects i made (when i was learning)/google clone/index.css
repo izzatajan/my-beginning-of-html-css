@@ -1,0 +1,117 @@
+/* top bar begin */
+.top-bar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.top-bar-box{
+    display: flex;
+    align-items: center;
+}
+
+.email-a, .images-a{
+    margin: 0 15px;
+    font-size: 15px;
+    text-decoration: dashed;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.images-a{
+    margin-left: 0;
+}
+
+.apps{
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+.apps:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.sign-in{
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 23px;
+    font-size: 15px;
+    letter-spacing: .25px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: background-color .15s;
+}
+.sign-in:hover{
+    background-color: #155fbe;
+}
+.sign-in:active{
+    background-color: #124d9b;
+}
+/* top bar compleated */
+
+.google-logo-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 13em;
+    margin-bottom: 45px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+.search-div{
+    background-color: #fff;
+    box-shadow: 0 0 2px rgb(185, 185, 185);
+    width: 550px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+.search-div:hover{
+    box-shadow: 0 0 8px rgb(185, 185, 185);
+}
+.search-div:active{
+    box-shadow: 0 0 8px rgb(185, 185, 185);
+}
+
+.search{
+    font-family: arial,sans-serif;
+    font-size: 17px;
+    border: none;
+    margin-left: 5px;
+    padding: 10px;
+    width: 80%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.down-buttons{
+    padding: 10px;
+    font-size: 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    margin: 0px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.down-buttons:hover{
+    border: 1px solid #e1e2e2;
+}
+
+.footer p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
